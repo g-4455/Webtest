@@ -1,1 +1,33 @@
-Unnamed repository; edit this file 'description' to name the repository.
+Package: cccn.cfn.tools
+Title: A package for mass spec data processing
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mckayl", "Bailey", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Multiple seperate functions for processing mass spec data into usable and interactive data structures
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    Rtsne,
+    parallel,
+    foreach,
+    doParallel,
+    rgl,
+    plyr,
+    igraph,
+    vegan,
+    STRINGdb,
+    dplyr,
+    grDevices,
+    graphics,
+    utils
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 3.5)
+LazyData: true
